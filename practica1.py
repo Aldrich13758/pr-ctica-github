@@ -7,4 +7,4 @@ var2=6.7
 #variable texto
 var3="queso"
 
-print el "var3"
+print(f"el {var3}")
