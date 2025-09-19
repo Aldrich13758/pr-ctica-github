@@ -1,0 +1,6 @@
+var1=input("introduce la primera palabra:")
+var2=input("introduce la segunda palabra:")
+var3=input("introduce la tercera palabra:")
+var4=input("introduce la cuarta palbra:")
+var5=input("introduce la quinta palabra:")
+print(f"¨{var1}, {var2}, {var3}, {var4}, {var5}")
