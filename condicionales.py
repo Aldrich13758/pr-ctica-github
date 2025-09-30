@@ -1,0 +1,5 @@
+print("menú")
+print("1. hamburguesa")
+print("2. pizza")
+print("3. lentejas")
+print("4. bocata de jamón")
