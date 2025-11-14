@@ -8,4 +8,4 @@ for letra in palabra:
     else: 
         consonantes += letra 
 print("Las vocales son:", vocales) 
-print("Las consonantes son:", consonantes) 
+print("Las consonantes son:", consonantes)
