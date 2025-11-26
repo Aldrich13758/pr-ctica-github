@@ -5,6 +5,6 @@ for i in range(1, 51):
     if i %2==0:
         pares+=1
     else:
-        impares += 1
+        impares+=1
 print("Total pares:", pares)
 print("Total impares:", impares)

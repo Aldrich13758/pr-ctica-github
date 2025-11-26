@@ -2,7 +2,7 @@
 número=int(input("¿Cuántas notas quieres introducir? ")) 
 for i in range(número): 
     nota=float(input("Introduce la nota: ")) 
-    if 0<=nota<= 10: 
+    if 0<=nota<=10: 
         if nota>= 5: 
             print("Asignatura aprobada") 
         else:

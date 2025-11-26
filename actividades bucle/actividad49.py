@@ -4,6 +4,3 @@ letra=input("Introduce una letra: ")
 for i in range(len(palabrasecreta)):
     if palabrasecreta[i]==letra:
         print("La letra se encuentra en la posición", i+1)
-
- 
- 
