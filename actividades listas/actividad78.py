@@ -15,5 +15,4 @@ while True:
         print("Introduce valor numérico")
 
     if input("Deseas introducir otro valor s/n: ").lower()=="n":
-        print("Fin del programa")
         break 
