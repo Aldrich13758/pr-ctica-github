@@ -1,2 +1,8 @@
-nums = input().split() 
-print(int(nums[0]) + int(nums[1]) + int(nums[2]))
+num=input("")
+lista=num.split()
+
+if len(num) == 1:
+    num2=input("")
+    print(int(num)+int(num2))
+else:
+    print(int(lista[0])+int(lista[1]))
