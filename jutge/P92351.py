@@ -1,4 +1,7 @@
 a, b = map(int, input().split()) 
 d = a // b 
-r = a % b 
+r = a % b   
+if r < 0: 
+    r += b 
+    d -= 1 
 print(d, r)

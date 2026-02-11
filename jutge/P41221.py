@@ -1,2 +1,2 @@
-nums = input().split() 
-print(int(nums[0]) + int(nums[1]) + int(nums[2]))
+a, b, c = map(int, input().split()) 
+print(a + b + c)
