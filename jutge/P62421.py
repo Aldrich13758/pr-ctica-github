@@ -1,2 +1,2 @@
-a, b, c = input("introduce tres palabras separadas por espacios: ").split() 
+a, b, c = input().split() 
 print(c, b, a)
