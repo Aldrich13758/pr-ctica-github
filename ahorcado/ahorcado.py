@@ -7,6 +7,25 @@ print("¡Bienvenido al juego del Ahorcado!")
 print("La palabra secreta tiene", len(palabra_secreta),"letras.")
 print("Tienes", intentos, "intentos para adivinarla.")
 while intentos>0:
+    if intentos==8:
+        print("________")
+    if intentos==7:
+        print("A_______")
+    if intentos==6:
+        print("AH______")
+    if intentos==5:
+        print("AHO_____")
+    if intentos==4:
+        print("AHOR____")
+    if intentos==3:
+        print("AHORC___")
+    if intentos==2:
+        print("AHORCA__")
+    if intentos==1:
+        print("AHORCAD_")
+    if intentos==0:
+        print("AHORCADO")
+
     letra=input("Introduce una letra: ").lower()
     if letra in letras_adivinadas:
         print("Ya has adivinado esa letra. Intenta con otra.")
@@ -17,7 +36,6 @@ while intentos>0:
     else:
         intentos -= 1
         print("¡Incorrecto! Te quedan", intentos, "intentos.")
-        print(f"La palabra secreta era {palabra_secreta}.")
     palabra_mostrada=""
     for letra_palabra in palabra_secreta:
         if letra_palabra in letras_adivinadas:
