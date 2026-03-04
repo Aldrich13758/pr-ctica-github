@@ -42,6 +42,17 @@ while intentos>0:
         print("¡Has perdido! La palabra secreta era:", palabra_secreta)
         print("AHORCADO")
         print(f"aciertos: {aciertos}, errores: {errores}")
+        jugar_otra = input("\n¿Quieres jugar otra partida? (s/n): ").lower()
+        while not jugar_otra
+        if jugar_otra != "s": 
+            print("¡Gracias por jugar! Hasta la próxima.")
+            break
+        else:
+            palabra_secreta=random.choice(lista_palabras).lower()
+            letras_adivinadas=[]
+            intentos=8
+            aciertos=0
+            errores=0
     for letra_palabra in palabra_secreta:
         if letra_palabra in letras_adivinadas:
             palabra_mostrada+=letra_palabra + " "
@@ -51,7 +62,7 @@ while intentos>0:
     if "_" not in palabra_mostrada:
         print("¡Felicidades! Has adivinado la palabra secreta:", palabra_secreta)
         print("Aciertos:", aciertos, "Errores:", errores)
-        jugar_otra = input("\n¿Quieres jugar otra partida? (s/n): ").lower() 
+        jugar_otra = input("\n¿Quieres jugar otra partida? (s/n): ").lower()
         if jugar_otra != "s": 
             print("¡Gracias por jugar! Hasta la próxima.")
             break
